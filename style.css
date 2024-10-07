@@ -4,6 +4,10 @@ body {
   background-color: rgb(35,35,35);
 }
 
+a {
+  color:dodgerblue;
+}
+
 img {
   height: auto;
   width: 375px;
