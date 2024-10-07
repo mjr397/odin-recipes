@@ -1,4 +1,21 @@
+body {
+  font-family: Georgia, Times, serif;
+  color: white;
+  background-color: rgb(35,35,35);
+}
+
 img {
   height: auto;
   width: 375px;
+}
+
+h1 {
+  color:rgb(237, 155, 100);
+  background-color: rgb(70,70,70);
+  font-size: xx-large;
+}
+
+p,
+li {
+  font-size: large;
 }
