@@ -12,6 +12,8 @@ a {
 img {
   height: auto;
   width: 375px;
+  display: block;
+  margin: 0 auto;
 }
 
 .title h1 {
@@ -20,7 +22,9 @@ img {
   font-size: xx-large;
   font-style: normal;
   font-weight: bold;
-  padding: 0.25em;
+  padding: 6px;
+  border: 0;
+  text-align: center;
 }
 
 h1 {
@@ -29,10 +33,19 @@ h1 {
   font-size: x-large;
   font-style: italic;
   font-weight: normal;
-  padding: 0.25em;
+  padding: 4px;
+  border: 0;
+  border-bottom: 2px;
+  border-style: dashed;
+  border-color: white;
+  margin: 16px 0;
 }
 
 p,
 li {
   font-size: large;
+}
+
+p {
+  padding-left: 4px;
 }
