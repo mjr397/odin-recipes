@@ -2,6 +2,7 @@ body {
   font-family: Georgia, Times, serif;
   color: white;
   background-color: rgb(35,35,35);
+  font-size: large;
 }
 
 a {
@@ -13,10 +14,21 @@ img {
   width: 375px;
 }
 
-h1 {
+.title h1 {
   color:rgb(237, 155, 100);
   background-color: rgb(70,70,70);
   font-size: xx-large;
+  font-style: normal;
+  font-weight: bold;
+  padding: 0.25em;
+}
+
+h1 {
+  color:rgb(237, 155, 100);
+  background-color: rgb(70,70,70);
+  font-size: x-large;
+  font-style: italic;
+  font-weight: normal;
   padding: 0.25em;
 }
 
